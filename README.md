@@ -31,14 +31,6 @@ We have provided you with a video that you will use in this activity. You can co
    - For each frame extracted, pass the frame through the `Salesforce/blip-image-captioning-base` model to generate a caption.
    - Ensure that each caption is stored in a list or dictionary along with the corresponding frame number or timestamp.
 
-5. **Output**:
-   - Once all frames have been processed, output the captions in a readable format. You can save the results to a text file, a CSV file, or simply print them to the console.
-   - Optionally, display a few frames alongside their generated captions to visualize the results.
-
-6. **Extension (Optional)**:
-   - Explore how changes in the frame extraction rate affect the overall processing time and the quality of descriptions.
-   - Experiment with different videos to see how the model performs across various contexts and scenes.
-
 ## Tips
 1. Start small, first make sure that you have a function that can accept a single picture and can normally process it and return the result.
 2. OpenCV is a new tool to you, but it is easy once you understand it. Make sure you get the frames one by one.
