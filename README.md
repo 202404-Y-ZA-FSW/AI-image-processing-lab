@@ -1,5 +1,3 @@
-# Image Processing Activity: Video Frame-by-Frame Description
-
 ## Overview
 
 In this activity, you will explore the process of using Python to perform image processing on video data. Specifically, you will learn how to use OpenCV to capture video frames and apply a pre-trained model, `Salesforce/blip-image-captioning-base`, to generate descriptions for each frame. By the end of this activity, you will have a Python script that processes a video file frame by frame and outputs textual descriptions for each frame.
