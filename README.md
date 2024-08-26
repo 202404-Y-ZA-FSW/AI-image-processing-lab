@@ -13,7 +13,8 @@ This activity is designed to give you hands-on experience with video processing 
 The end result of this activity will be a series of text descriptions corresponding to the individual frames extracted from a video.
 This exercise will help solidify your understanding of integrating machine learning models with traditional image processing techniques, and you'll gain practical experience in handling video data programmatically.
 ## Instructions
-We have provided you with a video that you will use in this activity. You can copy its link directly from Github.
+We have provided you with a video that you will use in this activity. You can copy its link directly from Github with this [link](https://github.com/user-attachments/assets/d024a685-8740-4537-94f7-e05bd512bdd7)
+
 
 1. **Environment Setup**:
    - Ensure that Python is installed on your local machine or is accessible via Google Colab.
@@ -43,8 +44,9 @@ We have provided you with a video that you will use in this activity. You can co
 ## Tips
 1. Start small, first make sure that you have a function that can accept a single picture and can normally process it and return the result.
 2. OpenCV is a new tool to you, but it is easy once you understand it. Make sure you get the frames one by one.
-3. Once you have the above working separately. Join them together by passing each frame one-by-one to the model to describe them.
-4. Now that you have them all, save in a dictionary the frames and the description.
+3. The video we provided is 9 seconds long. You don't need to process the whole thing from the beginning. Process the first 3 seconds and once you are confident that you have the code ready try it out on the rest of the 9 seconds.
+4. Once you have the above working separately. Join them together by passing each frame one-by-one to the model to describe them.
+5. Now that you have them all, save in a dictionary the frames and the description.
 
 ## Retrospective
 After finishing the activity above, in what way can we make this useful? How can we make it better?
